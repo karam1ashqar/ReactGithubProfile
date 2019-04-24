@@ -5,6 +5,7 @@ import UserInfo from "./UserInfo/UserInfo";
 import { token } from "../utils/token";
 import { fetchUserInfo } from "../utils/fetchUserInfo";
 import { fetchUserRepos } from "../utils/fetchUserRepos";
+import './app.css'
 
 export class App extends React.Component {
   state = {

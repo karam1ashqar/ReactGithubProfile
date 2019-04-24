@@ -1,0 +1,23 @@
+.profile--container {
+  padding: 25px;
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+}
+
+.bordered {
+  border: 1px solid black;
+  padding: 20px;
+  transition: background 1.3s ease-in-out;
+  border-radius: 10px;
+  box-shadow: 5px 5px blue, 7.5px 7.5px red, 10px 10px green;
+  background-image: linear-gradient(#e0e2de, white);
+}
+
+a {
+  font-size: 0.7em;
+}
+
+.bordered:hover {
+  background: white;
+}
